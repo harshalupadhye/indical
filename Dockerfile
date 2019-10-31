@@ -1,6 +1,5 @@
-FROM python:3
-
+FROM python:3.8
 
 ADD src /src
 
- CMD ["python", "C:\Users\hindl\PycharmProjects\indical/calculatorTests.py"]
+ CMD ["python", "./src/CalculatorTest.py"]
